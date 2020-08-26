@@ -14,6 +14,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
+      <img src="vercel.svg" alt="vercel logo" />
       {label}
     </button>
   );
